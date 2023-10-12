@@ -24,6 +24,13 @@ Mendeklarasikan metode sebagai final mencegah metode tersebut dari di-override d
 -	searchTreatment(): Memungkinkan pengguna untuk mencari treatment berdasarkan nama treatment yang dimasukkan.
   <img width="540" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/72c54c6c-e45a-45aa-a321-f647f0004dfb">
 
+  - iterasi.
+<img width="423" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/98f671f5-d669-409f-9bdf-781b723b94b2">
+    
+   Iterasi dilakukan menggunakan Iterator<Treatment2> untuk mengakses elemen di dalam List treatments. Setiap elemen diperiksa, dan jika nama treatment cocok, treatment tersebut dihapus menggunakan iterator.remove()
+
+
+
 
 2. **Kelas Treatment**:
 -	Merupakan kelas yang merepresentasikan treatment, dengan atribut ID, nama, dan harga.
