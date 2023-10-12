@@ -44,12 +44,12 @@ public final class Treatment2 {
     }
     
     public void inputData(Scanner scanner) {
-        scanner.nextLine();  // Consume the newline character
+        scanner.nextLine();  
         System.out.print("Masukkan nama treatment: ");
         this.name = scanner.nextLine();
         System.out.print("Masukkan harga treatment: ");
         this.price = scanner.nextDouble();
-        scanner.nextLine();  // Consume the newline character
+        scanner.nextLine();  
     }
 
     @Override
