@@ -8,7 +8,9 @@ Program yang dibuat merupakan program untuk mengelola daftar treatment di sebuah
 -	Menggunakan kelas Scanner untuk mendapatkan input dari pengguna.
 -	Menggunakan kelas Treatment untuk merepresentasikan treatment.
 -	Penggunaan final pada Metode (final method):
-Mendeklarasikan metode sebagai final mencegah metode tersebut dari di-override di kelas turunannya. Hal ini bermanfaat saat ingin memastikan bahwa perilaku suatu metode tidak dapat diubah oleh kelas turunan.
+Mendeklarasikan metode sebagai final mencegah metode tersebut dari di-override di kelas turunannya. Hal ini bermanfaat saat ingin memastikan bahwa perilaku suatu metode tidak dapat diubah oleh kelas turunan. Berikut ini adalah salah satu contoh penerapannya.
+  <img width="302" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/01c0a106-46a4-48bc-a881-8a9ebf595769">
+
 -	addTreatment(): Menambahkan treatment baru dengan mendapatkan input dari pengguna (ID, nama, harga) dan menyimpannya dalam list treatments.
   <img width="383" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/18b36f51-433e-401f-8a5a-e76f0290480d">
 
@@ -24,12 +26,19 @@ Mendeklarasikan metode sebagai final mencegah metode tersebut dari di-override d
 -	searchTreatment(): Memungkinkan pengguna untuk mencari treatment berdasarkan nama treatment yang dimasukkan.
   <img width="540" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/72c54c6c-e45a-45aa-a321-f647f0004dfb">
 
-  - iterasi.
+- switch
+
+   <img width="325" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/95176973-629c-43ec-af7e-a032edc14911">
+
+  - kontrol switch digunakan untuk memilih tindakan berdasarkan input yang diberikan pengguna melalui menu.
+  - choice adalah variabel yang menyimpan pilihan pengguna yang dimasukkan melalui keyboard. switch memeriksa nilai choice dan memilih tindakan yang sesuai berdasarkan nilai tersebut.
+  - Setiap case adalah kondisi yang akan diuji untuk menentukan tindakan yang harus diambil. Jika nilai choice cocok dengan salah satu case, maka tindakan yang sesuai akan dijalankan. Misalnya, jika choice adalah 1, maka case 1 akan dipilih, dan metode addTreatment() akan dipanggil.
+
+- iterasi
 <img width="423" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/98f671f5-d669-409f-9bdf-781b723b94b2">
     
    Iterasi dilakukan menggunakan Iterator<Treatment2> untuk mengakses elemen di dalam List treatments. Setiap elemen diperiksa, dan jika nama treatment cocok, treatment tersebut dihapus menggunakan iterator.remove()
-
-
+   
 
 2. **Kelas Treatment**:
 -	Merupakan kelas yang merepresentasikan treatment, dengan atribut ID, nama, dan harga.
