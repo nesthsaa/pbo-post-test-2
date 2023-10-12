@@ -1,4 +1,4 @@
-# Penjelasan Source Code
+# Penjelasan Source Code 
 
 Program yang dibuat merupakan program untuk mengelola daftar treatment di sebuah Nail Art Studio. Program ini memanfaatkan konsep pemrograman berorientasi objek (OOP) dengan memanfaatkan kelas dan objek. Program terdiri dari dua kelas yaitu NailArtStudioo dan Treatment. Berikut adalah penjelasan mengenai setiap kelas:
 
