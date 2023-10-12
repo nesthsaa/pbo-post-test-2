@@ -15,7 +15,7 @@ Mendeklarasikan metode sebagai final mencegah metode tersebut dari di-override d
 -	displayAllTreatments(): Menampilkan semua treatment yang ada dalam list treatments.
   <img width="413" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/e811ceaf-c646-4da1-ba6f-fe1653ccc5df">
 
--	editTreatment(): Memungkinkan pengguna untuk memilih nomor treatment yang ingin diubah dan mengubahnya dengan input baru.
+-	editTreatment(): Memungkinkan pengguna untuk memilih nomor treatment yang ingin diubah dan mengubahnya dengan input baru, kemudian memanggil method inputData() pada treatment yang dipilih.
   <img width="419" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/97a3ff9f-cd54-4564-b8af-11bb93e0b839">
 
 -	deleteTreatment(): Memungkinkan pengguna untuk menghapus treatment berdasarkan nama treatment yang dimasukkan.
@@ -28,7 +28,6 @@ Mendeklarasikan metode sebagai final mencegah metode tersebut dari di-override d
 <img width="423" alt="image" src="https://github.com/nesthsaa/pbo-post-test-2/assets/127474858/98f671f5-d669-409f-9bdf-781b723b94b2">
     
    Iterasi dilakukan menggunakan Iterator<Treatment2> untuk mengakses elemen di dalam List treatments. Setiap elemen diperiksa, dan jika nama treatment cocok, treatment tersebut dihapus menggunakan iterator.remove()
-
 
 
 
